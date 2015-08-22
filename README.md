@@ -1,9 +1,14 @@
-# learn-vim-plugin
+# Consolation
 
 [![Build Status][travis-badge]][travis-page]
 
-[travis-badge]: https://api.travis-ci.org/aharris88/learn-vim-plugin.svg?branch=master
-[travis-page]: https://travis-ci.org/aharris88/learn-vim-plugin
+[travis-badge]: https://api.travis-ci.org/aharris88/consolation-vim.svg?branch=master
+[travis-page]: https://travis-ci.org/aharris88/consolation-vim
+
+This is a simple plugin to just console.log() out whatever you currently have in your register on the line above your current line.
+
+
+## Testing
 
 I'm using [vim-vspec](https://github.com/kana/vim-vspec).
 
