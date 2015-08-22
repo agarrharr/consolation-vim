@@ -14,7 +14,7 @@ describe 'Consolate'
     Expect getline(1) == "var a = 5;"
   end
 
-  it 'can exercise user-defined mappings'
+  it 'can add a console.log with whatever is in the register'
     normal! ggwyiw
     execute "normal! :Consolate\<cr>"
     Expect getreg('"') == 'a'
