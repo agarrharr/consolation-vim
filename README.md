@@ -7,6 +7,30 @@
 
 This is a simple plugin to just console.log() out whatever you currently have in your register on the line above your current line.
 
+## Usage
+
+Yank something that you want to console.log into your register and then run:
+
+```
+:Consolate
+```
+
+Or you can add a mapping to your `.vimrc` like this:
+
+```
+nnoremap <leader>c :Consolate<cr>
+```
+
+## Installation
+
+To install, you can use your favorite package manager.
+
+For Vundle users:
+
+Add Plugin 'aharris88/consolation-vim' to your ~/.vimrc and then:
+
+within Vim, run: `:PluginInstall`
+
 
 ## Testing
 
