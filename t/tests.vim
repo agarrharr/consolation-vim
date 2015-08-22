@@ -1,6 +1,6 @@
 runtime! plugin/consolation.vim
 
-describe 'vspec'
+describe 'Consolate'
   before
     new
     put! = 'var a = 5;'
@@ -15,8 +15,8 @@ describe 'vspec'
   end
 
   it 'can exercise user-defined mappings'
-    normal ggwyiw
-    normal x
+    normal! ggwyiw
+    execute "normal! :Consolate\<cr>"
     Expect getreg('"') == 'a'
     Expect getline(1) == 'console.log(a);'
   end
