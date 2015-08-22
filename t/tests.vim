@@ -1,4 +1,4 @@
-runtime! consolation.vim
+runtime! plugin/consolation.vim
 
 describe 'vspec'
   before
