@@ -16,8 +16,18 @@ describe 'Consolate'
 
   it 'can add a console.log with whatever is in the register'
     normal! ggwyiw
-    execute "normal! :Consolate\<cr>"
     Expect getreg('"') == 'a'
+
+    execute "normal! :Consolate\<cr>"
     Expect getline(1) == 'console.log(a);'
+  end
+
+  it 'indents correctly'
+    set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+    normal! gg>>wyiw
+    Expect getreg('"') == 'a'
+
+    execute "normal! :Consolate\<cr>"
+    Expect getline(1) == '  console.log(a);'
   end
 end
