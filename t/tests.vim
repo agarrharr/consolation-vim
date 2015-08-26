@@ -24,10 +24,14 @@ describe 'Consolate'
 
   it 'indents correctly'
     set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-    normal! gg>>wyiw
+    new
+    put! = '}'
+    put! = '  var a = 5;'
+    put! = 'function() {'
+    normal! ggjwwyiw
     Expect getreg('"') == 'a'
 
     execute "normal! :Consolate\<cr>"
-    Expect getline(1) == '  console.log(a);'
+    Expect getline(2) == '  console.log(a);'
   end
 end
