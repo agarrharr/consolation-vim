@@ -27,7 +27,7 @@ To install, you can use your favorite package manager.
 
 For Vundle users:
 
-Add Plugin 'aharris88/consolation-vim' to your ~/.vimrc and then:
+Add `Plugin 'aharris88/consolation-vim'` to your `~/.vimrc` and then:
 
 within Vim, run: `:PluginInstall`
 
