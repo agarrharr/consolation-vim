@@ -5,7 +5,9 @@
 [travis-badge]: https://api.travis-ci.org/aharris88/consolation-vim.svg?branch=master
 [travis-page]: https://travis-ci.org/aharris88/consolation-vim
 
-This is a simple plugin to just console.log() out whatever you currently have in your register on the line above your current line.
+> This is a simple plugin to just console.log() out whatever you currently have in your register on the line above your current line.
+
+<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/consolation-vim" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/consolation-vim.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
 
 ## Usage
 
