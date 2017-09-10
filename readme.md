@@ -2,8 +2,8 @@
 
 [![Build Status][travis-badge]][travis-page]
 
-[travis-badge]: https://api.travis-ci.org/aharris88/consolation-vim.svg?branch=master
-[travis-page]: https://travis-ci.org/aharris88/consolation-vim
+[travis-badge]: https://api.travis-ci.org/agarrharr/consolation-vim.svg?branch=master
+[travis-page]: https://travis-ci.org/agarrharr/consolation-vim
 
 > This is a simple plugin to just console.log() out whatever you currently have in your register on the line above your current line.
 
@@ -27,7 +27,7 @@ To install, you can use your favorite package manager.
 
 For Vundle users:
 
-Add `Plugin 'aharris88/consolation-vim'` to your `~/.vimrc` and then:
+Add `Plugin 'agarrharr/consolation-vim'` to your `~/.vimrc` and then:
 
 within Vim, run: `:PluginInstall`
 
