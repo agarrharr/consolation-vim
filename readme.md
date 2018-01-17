@@ -43,5 +43,3 @@ I'm using [vim-vspec](https://github.com/kana/vim-vspec).
 [Introduction to vspec on vimcasts](http://vimcasts.org/episodes/an-introduction-to-vspec/)
 
 The unit tests have to be written in the `t` directory with the extension `.vim`.
-
-<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/consolation-vim" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/consolation-vim.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
